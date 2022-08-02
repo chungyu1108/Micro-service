@@ -1,21 +1,19 @@
+# <CS361 GROUP24 LEARNING STUDY MICROSERVICE>
 As a microservice, my partner could make something that takes in many strings as input, and creates a .csv file from it.
 
 My program sends to my partner microservice a request ("give me a list of videos about algebra") and my microservice gives a simple reply back to me program
-# <Your-Project-Title>
+
 
 ## Description
 
 GOAL:
 Refactor our old webpage interface to achieve better conversion and interaction on the login page with users.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Basically, when the user request the service from the webpage, my microservice manages its own data to the microservices principle. A single data store shouldn't be shared by two services. Instead, each service is in charge of maintaining its own private data stores, which other services are unable to directly access. Therefore, when the user request the ask question, first the server will find the answer and explanation for the database, than if the database did’t have the answer, the server will sent the request to the expert for the response.
 
 ## Table of Contents (Optional)
 
-Basically, when the user request the service from the webpage, my microservice manages its own data to the microservices principle. A single data store shouldn't be shared by two services. Instead, each service is in charge of maintaining its own private data stores, which other services are unable to directly access. Therefore, when the user request the ask question, first the server will find the answer and explanation for the database, than if the database did’t have the answer, the server will sent the request to the expert for the response.
+
 
 ## Installation
 
@@ -41,7 +39,7 @@ The last section of a high-quality README file is the license. This lets other d
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.![Screen Shot 2022-08-01 at 11 23 06 PM](https://user-images.githubusercontent.com/91305697/182305991-b08dba6f-1ac1-45c4-9178-b0ff25fc6a4c.png)
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.!
 
 
 ## Badges
@@ -51,8 +49,9 @@ The last section of a high-quality README file is the license. This lets other d
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 ## Features
+example of the webpage look like
+![Screen Shot 2022-08-01 at 11 23 06 PM](https://user-images.githubusercontent.com/91305697/182306195-be8155c9-e3c1-4103-b9dc-741efb4409c7.png)
 
-If your project has a lot of features, list them here.
 
 ## How to Contribute
 
