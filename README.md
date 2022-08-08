@@ -30,7 +30,7 @@ For the nav bar, we are including a home page, an about page, a booking page, an
 
 ## Features
 example of the webpage look like
-![Screen Shot 2022-08-01 at 11 23 06 PM](https://user-images.githubusercontent.com/91305697/182306195-be8155c9-e3c1-4103-b9dc-741efb4409c7.png)
+![Screen Shot 2022-08-08 at 3 29 26 PM](https://user-images.githubusercontent.com/91305697/183525527-36e20981-7749-4b7b-8e14-13fc4acd1683.png)
 
 
 ## How to Contribute
